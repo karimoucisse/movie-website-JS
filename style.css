@@ -14,10 +14,18 @@ body {
 }
 
 header {
-    padding : 1rem;
+    padding : 5px 2rem 5px 7rem;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--secondary-color);
+}
+header h3 {
+    color: lightgrey;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: 18px;
+    text-shadow: 4px 4px 7px rgb(65, 63, 63);
 }
 .search {
     background-color: transparent;
